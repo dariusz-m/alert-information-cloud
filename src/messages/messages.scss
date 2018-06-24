@@ -1,0 +1,147 @@
+.messages {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  .selected-message {
+    flex: 0 1 50%;
+  }
+}
+
+
+.data-piece{
+  display: flex;
+  margin: 13px 0;
+}
+
+.result-block{
+  position: relative;
+  min-height: 100px;
+  padding: 21px;
+  margin-top: 21px;
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.result-block-hash{
+
+}
+
+a{
+  text-decoration: none;
+}
+
+a:active,
+a:focus,
+a:visited{
+  color: inherit;
+}
+
+.result-block:before{
+  content: '';
+  position: absolute;
+  display: block;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+  transform: skewY(-3deg);
+  transform-origin: left;
+  opacity: 0.8;
+  animation: animFloat3d 2s var(--acc-sine) infinite alternate;
+}
+
+
+.result-block:hover:before{
+  opacity: 1;
+  transition: opacity 100ms var(--acc-sine);
+}
+
+@keyframes animFloat3d{
+  0%{
+    transform: skewY(-3deg);
+  }
+  100%{
+    transform: rotateY(21deg) rotateX(8deg) skewY(-3deg);
+  }
+}
+
+@keyframes animFloat3dAlt{
+  0%{
+    transform: rotateZ(180deg) skewY(-3deg);
+  }
+  100%{
+    transform: rotateZ(180deg) rotateX(10deg) skewY(-3deg);
+  }
+}
+
+.result-block:nth-of-type(odd):before{
+  transform: rotateZ(180deg) skewY(-3deg);
+  transform-origin: center;
+  animation: animFloat3dAlt 2s var(--acc-sine) infinite alternate;
+}
+
+.result-block .link{
+  padding: 0;
+ font-size: 14px;
+}
+
+.result-block .link:hover + .icon.href{
+  transform: translateX(3px);
+}
+
+.result-block > *{
+  position: relative;
+}
+
+.result-block .balance{
+  text-align: left;
+  margin-right: 13px;
+}
+
+.icon{
+  display: inline-flex;
+  align-items: center;
+  padding-right: 5px;
+  transition: transform 100ms var(--acc-sine);
+}
+
+.result-title-side{
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+.icon.flow.from:before,
+.icon.flow.to:before{
+  content: '';
+  width: 15px; height: 15px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='15' viewBox='0 0 15 15'%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill-rule: evenodd; fill: %231fa600; %7D %3C/style%3E%3C/defs%3E%3Cpath id='_copy' data-name=' copy' class='cls-1' d='M5.609,1.266a0.15,0.15,0,0,0-.109.047l-0.094.094L2.063,4.734a0.759,0.759,0,0,0-.141.242,0.7,0.7,0,0,0-.047.227,0.7,0.7,0,0,0,.047.227,0.754,0.754,0,0,0,.141.242,0.642,0.642,0,0,0,.938,0l2.2-2.2V9.875a3.27,3.27,0,0,0,2.031,3.063,3.208,3.208,0,0,0,1.3.266H13.2a0.671,0.671,0,0,0,.484-0.18,0.649,0.649,0,0,0,.188-0.492,0.63,0.63,0,0,0-.187-0.477,0.672,0.672,0,0,0-.484-0.18H8.531a1.974,1.974,0,0,1-2-2V3.469l2.2,2.2a0.663,0.663,0,1,0,.938-0.937L6.344,1.406a0.748,0.748,0,0,0-.109-0.07,0.367,0.367,0,0,1-.094-0.07,1.034,1.034,0,0,0-.3-0.047,0.522,0.522,0,0,0-.234.047h0Z'/%3E%3C/svg%3E%0A");
+}
+
+.link{
+  padding: 13px 21px 0 21px;
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+}
+
+.link:hover:after{
+  transform: translateX(10px);
+}
+
+.truncate{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 34%;
+  display: block;
+  overflow: hidden
+}
+
+.truncate.abit{
+  width: 89%;
+}
+
+.scrollable-wrapper {
+  height: 400px;
+  overflow: auto;
+  width: 50%;
+}

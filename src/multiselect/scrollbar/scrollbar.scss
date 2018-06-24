@@ -1,0 +1,12 @@
+@import "../../../node_modules/perfect-scrollbar/src/css/main";
+@import "../../../node_modules/perfect-scrollbar/src/css/themes";
+
+.ps-theme-multiselect {
+  @include ps-container(map-merge($ps-theme-default, (
+    border-radius: 0,
+    scrollbar-x-rail-height: 20px,
+    scrollbar-x-height: 20px,
+    scrollbar-y-rail-width: 10px,
+    scrollbar-y-width: 10px
+  )));
+}

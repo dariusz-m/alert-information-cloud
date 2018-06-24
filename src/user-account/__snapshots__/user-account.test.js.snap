@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User Account tests Login component renders correctly 1`] = `
+<form
+  className="form-signin"
+>
+  <img
+    alt=""
+    className="mb-4"
+    height="72"
+    src=""
+    width="72"
+  />
+  <h1
+    className="h3 mb-3 font-weight-normal"
+  >
+    Please sign in
+  </h1>
+  <label
+    className="sr-only"
+    htmlFor="inputEmail"
+  >
+    Email address
+  </label>
+  <input
+    autoFocus={true}
+    className="form-control"
+    id="inputEmail"
+    onChange={[Function]}
+    placeholder="Email address"
+    required={true}
+    type="email"
+    value=""
+  />
+  <label
+    className="sr-only"
+    htmlFor="inputPassword"
+  >
+    Password
+  </label>
+  <input
+    className="form-control"
+    id="inputPassword"
+    onChange={[Function]}
+    placeholder="Password"
+    required={true}
+    type="password"
+    value=""
+  />
+  <p>
+    No account? 
+    <a
+      href="/register"
+      onClick={[Function]}
+    >
+      <strong>
+        Create one!
+      </strong>
+    </a>
+  </p>
+  <button
+    className="btn btn-lg btn-primary btn-block"
+    onClick={[Function]}
+    type="submit"
+  >
+    Sign in
+  </button>
+</form>
+`;
+
+exports[`User Account tests Register component renders correctly 1`] = `
+<form
+  className="form-signin"
+>
+  <img
+    alt=""
+    className="mb-4"
+    height="72"
+    src=""
+    width="72"
+  />
+  <h1
+    className="h3 mb-3 font-weight-normal"
+  >
+    Create account
+  </h1>
+  <label
+    className="sr-only"
+    htmlFor="inputEmail"
+  >
+    Email address
+  </label>
+  <input
+    autoFocus={true}
+    className="form-control"
+    id="inputEmail"
+    onChange={[Function]}
+    placeholder="Email address"
+    required={true}
+    type="email"
+    value=""
+  />
+  <label
+    className="sr-only"
+    htmlFor="inputPassword"
+  >
+    Password
+  </label>
+  <input
+    className="form-control"
+    id="inputPassword"
+    onChange={[Function]}
+    placeholder="Password"
+    required={true}
+    type="password"
+    value=""
+  />
+  <label
+    className="sr-only"
+    htmlFor="inputName"
+  >
+    Name
+  </label>
+  <input
+    className="form-control"
+    id="inputName"
+    onChange={[Function]}
+    placeholder="Name"
+    required={true}
+    type="text"
+    value=""
+  />
+  <label
+    className="sr-only"
+    htmlFor="inputSurname"
+  >
+    Surname
+  </label>
+  <input
+    className="form-control"
+    id="inputSurname"
+    onChange={[Function]}
+    placeholder="Surname"
+    required={true}
+    type="text"
+    value=""
+  />
+  <p>
+    Back to 
+    <a
+      href="/login"
+      onClick={[Function]}
+    >
+      <strong>
+        Login page
+      </strong>
+    </a>
+  </p>
+  <button
+    className="btn btn-lg btn-primary btn-block"
+    onClick={[Function]}
+    type="submit"
+  >
+    Sign up
+  </button>
+</form>
+`;

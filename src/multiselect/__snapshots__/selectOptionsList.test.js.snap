@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectOptionsList component Component renders properly. 1`] = `
+<div>
+  <header />
+  <input
+    className="filter-input"
+    onChange={[Function]}
+    placeholder="Search..."
+  />
+  <div
+    className="select-all-visible"
+  >
+    <a
+      onClick={[Function]}
+    />
+  </div>
+  <ul
+    className="ms-list"
+  >
+    <li
+      className=""
+      onClick={[Function]}
+    >
+      1
+    </li>
+    <li
+      className=""
+      onClick={[Function]}
+    >
+      Text 5
+    </li>
+    <li
+      className="group-label"
+      onClick={[Function]}
+    >
+      Title
+    </li>
+    <li
+      className=""
+      onClick={[Function]}
+    >
+      Text 2
+    </li>
+    <li
+      className=""
+      onClick={[Function]}
+    >
+      3
+    </li>
+    <li
+      className="group-label"
+      onClick={[Function]}
+    >
+      Title 2
+    </li>
+    <li
+      className=""
+      onClick={[Function]}
+    >
+      7
+    </li>
+    <li
+      className=""
+      onClick={[Function]}
+    >
+      8
+    </li>
+  </ul>
+</div>
+`;

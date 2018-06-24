@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component renders properly. 1`] = `
+<div
+  className="multi-select"
+>
+  <div
+    className="options"
+  >
+    <div>
+      <header>
+        AVAILABLE USERS
+      </header>
+      <input
+        className="filter-input"
+        onChange={[Function]}
+        placeholder="Search..."
+      />
+      <div
+        className="select-all-visible"
+      >
+        <a
+          onClick={[Function]}
+        >
+          Send to all
+        </a>
+      </div>
+      <ul
+        className="ms-list"
+      >
+        <li
+          className=""
+          onClick={[Function]}
+        >
+          Text 5
+        </li>
+        <li
+          className="group-label"
+          onClick={[Function]}
+        >
+          Title
+        </li>
+        <li
+          className=""
+          onClick={[Function]}
+        >
+          Text 2
+        </li>
+        <li
+          className=""
+          onClick={[Function]}
+        >
+          3
+        </li>
+        <li
+          className="group-label"
+          onClick={[Function]}
+        >
+          Title 2
+        </li>
+        <li
+          className=""
+          onClick={[Function]}
+        >
+          8
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    className="selected-options"
+  >
+    <div>
+      <header>
+        SEND TO
+      </header>
+      <input
+        className="filter-input"
+        onChange={[Function]}
+        placeholder="Search..."
+      />
+      <div
+        className="select-all-visible"
+      >
+        <a
+          onClick={[Function]}
+        >
+          Clear list
+        </a>
+      </div>
+      <ul
+        className="ms-list"
+      >
+        <li
+          className=""
+          onClick={[Function]}
+        >
+          1
+        </li>
+        <li
+          className="group-label"
+          onClick={[Function]}
+        >
+          Title 2
+        </li>
+        <li
+          className=""
+          onClick={[Function]}
+        >
+          7
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Message Messages component renders correctly 1`] = `
+<div>
+  <button
+    className="btn btn-danger float-right"
+  >
+    Logout
+  </button>
+  <div
+    className="md-12 messages"
+  >
+    <div
+      className="scrollable-wrapper"
+    >
+      <div
+        itemRenderer={[Function]}
+        length={2}
+        pageSize={1}
+      />
+    </div>
+  </div>
+  <div
+    className="md-12"
+  >
+    <div
+      className="multi-select"
+    >
+      <div
+        className="options"
+      >
+        <div>
+          <header>
+            AVAILABLE USERS
+          </header>
+          <input
+            className="filter-input"
+            onChange={[Function]}
+            placeholder="Search..."
+          />
+          <div
+            className="select-all-visible"
+          >
+            <a
+              onClick={[Function]}
+            >
+              Send to all
+            </a>
+          </div>
+          <ul
+            className="ms-list"
+          >
+            <li
+              className=""
+              onClick={[Function]}
+            >
+              emial1@ids.pl
+            </li>
+            <li
+              className=""
+              onClick={[Function]}
+            >
+              fdsfsdfs@o2.pl
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        className="selected-options"
+      >
+        <div>
+          <header>
+            SEND TO
+          </header>
+          <input
+            className="filter-input"
+            onChange={[Function]}
+            placeholder="Search..."
+          />
+          
+          <ul
+            className="ms-list"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="input-group mb-3"
+    >
+      <input
+        aria-describedby="basic-addon2"
+        aria-label="Message body..."
+        className="form-control"
+        onChange={[Function]}
+        placeholder="Message body..."
+        type="text"
+        value=""
+      />
+      <div
+        className="input-group-append"
+      >
+        <button
+          className="btn btn-outline-secondary"
+          disabled={true}
+          onClick={[Function]}
+          type="button"
+        >
+          Send
+        </button>
+      </div>
+    </div>
+    <div
+      className="md-12"
+    >
+      <div
+        className="alert alert-info"
+      >
+        <p>
+          Select at least one recipient to send message.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div>
+    <input
+      name="dummy-for-react-web-notification"
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+      type="hidden"
+    />
+    <audio
+      id="sound"
+      preload="auto"
+    >
+      <source
+        src="https://georgeosddev.github.io/react-web-notification/example/sound.mp3"
+        type="audio/mpeg"
+      />
+      <source
+        src="https://georgeosddev.github.io/react-web-notification/example/sound.ogg"
+        type="audio/ogg"
+      />
+      <embed
+        autostart="false"
+        hidden="true"
+        loop="false"
+        src="https://georgeosddev.github.io/react-web-notification/example/sound.mp3"
+      />
+    </audio>
+  </div>
+</div>
+`;
